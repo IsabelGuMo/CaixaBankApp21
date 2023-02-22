@@ -1,4 +1,15 @@
+import 
+
 .imgDetail{
     width: 450px;
     height: auto;
+}
+.imgDetailSmall{
+    width: 200px;
+    height: auto;
+    margin: 24px;
+}
+.text{
+    border-radius:10px;
+    background-color: var(--blue);
 }
