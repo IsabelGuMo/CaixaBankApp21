@@ -1,8 +1,4 @@
-import React from 'react';
-import '../../styles/Styles.css';
-import Logo from '../../assets/images/logoHygge.png';
-import NavLinkAtom from '../../atoms/buttons/NavLinkAtom';
-
+import React from 'react'
 
 const NavbarComponent = () => {
   return (
@@ -18,9 +14,11 @@ const NavbarComponent = () => {
         <div className="w-30">
           <NavLinkAtom class='fw-bold' text='Publica tu anuncio'/> 
         </div>
+        <h1 className="header-text">CaixaBankApp21</h1>
       </div>
+      
     </div>
-    
+    </div>
   )
 }
 
