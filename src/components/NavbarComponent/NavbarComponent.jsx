@@ -5,7 +5,7 @@ const NavbarComponent = () => {
     <div>
       <div className="d-flex align-items-center justify-content-between header-container">
       <div className="logo-text d-flex align-items-center">
-        <div className="groot-container">
+        <div className="">
           {/* <img src={GrootLogo} alt='Groot logo' className='groot'/> */}
         </div>
         <h1 className="header-text">CaixaBankApp21</h1>
