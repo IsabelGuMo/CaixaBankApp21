@@ -11,5 +11,7 @@ import
 }
 .text{
     border-radius:10px;
-    background-color: var(--blue);
+    background-color: #0693E3;
+    padding: 20px;
+    width: 450px;
 }

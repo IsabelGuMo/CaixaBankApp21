@@ -23,30 +23,32 @@ const IconComponent = () => {
                 Search
               </button>
             </form>
-            <img src={pool} className="imgDetail" alt="imgage pool" />
-            <div>
-              <img src={pool} className="imgDetailSmall" alt="imgage pool" />
-              <img src={pool} className="imgDetailSmall" alt="imgage pool" />
+          </div>
+          <div className="col d-flex">
+          <div className="row-6">
+              <img src={pool} className="imgDetail" alt="imgage pool" />
+              <div>
+                <img src={pool} className="imgDetailSmall" alt="imgage pool" />
+                <img src={pool} className="imgDetailSmall" alt="imgage pool" />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="row-6">
-          <div className="text">
+          <div className="row-6 text">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
               asperiores? Illum enim rerum tenetur perspiciatis autem omnis
               reprehenderit, velit culpa ratione facere. Architecto, ipsum
-              sapiente corporis asperiores quidem illum minus!
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-              asperiores? Illum enim rerum tenetur perspiciatis autem omnis
-              reprehenderit, velit culpa ratione facere. Architecto, ipsum
-              sapiente corporis asperiores quidem illum minus!
+              sapiente corporis asperiores quidem illum minus! Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Harum, asperiores? Illum
+              enim rerum tenetur perspiciatis autem omnis reprehenderit, velit
+              culpa ratione facere. Architecto, ipsum sapiente corporis
+              asperiores quidem illum minus!
             </p>
+          </div>
           </div>
         </div>
         <div className="row-3"></div>
       </div>
-    </div>
   );
 };
 
