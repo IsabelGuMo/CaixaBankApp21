@@ -104,15 +104,17 @@ img {
 }
 
 .price {
-	/* background-color: rgba(250, 250, 250, 0.611); */
-	background-color: red;
+	background-color: rgba(250, 250, 250, 0.611);
+	width: 100%;
+	padding: 10px;
+	top: -20px;
 	text-align:right;
 	font-style: italic;
 	font-size: 25px;
 	margin-bottom: 0;
 }
 
-p.price {
+.price {
 	position: absolute;
 	font-weight: 500;
 	margin: -46px 0 0 0;
@@ -120,11 +122,19 @@ p.price {
 	min-width: fit-content;
 }
 
+.info-price{
+	position: relative;
+	/* height: 161px; */
+}
+
 @media screen and (max-width: 863px) {
 	.price {
 		text-align:right;
 		font-size: 23px;
-		width: 30%;
+		top: 99px;
+		bottom: auto;
+		margin: 0 auto;
+		width: 32%;
 		object-fit: cover;
 		border-radius: 0 0 0 10px;
 	}

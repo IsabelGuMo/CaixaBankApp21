@@ -1,12 +1,12 @@
 import './App.css';
-import NavbarComponent from './components/NavbarComponent/NavbarComponent.jsx';
+// import NavbarComponent from './components/NavbarComponent/NavbarComponent';
 import HousesComponent from './components/HousesComponent/HousesComponent.jsx';
 
 
 function App() {
   return (
     <div className="App">
-      <NavbarComponent/>
+      {/* <NavbarComponent/> */}
       <HousesComponent/>
     </div>
   );
