@@ -5,7 +5,7 @@ const NavLinkAtom = (props) => {
   return (
     <div>
        <div className="nav-item">
-            <Link className={`btn-nav ${props.class}`} to="/">{props.text}</Link>
+            <Link className={`btn-nav ${props.class}`} >{props.text}</Link>
         </div> 
     </div>
   )
