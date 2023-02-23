@@ -21,7 +21,7 @@ Segun los requisitos solicitados, desarrollamos un diagrama de flujo que muestra
 <img src="https://user-images.githubusercontent.com/116883797/220999839-7a80cb80-8e84-403c-9487-684e0e4bcd50.png">
 <img src="https://user-images.githubusercontent.com/116883797/220999853-bfa937cc-87d9-4485-8ade-6c31b4806cd1.png">
 <img src="https://user-images.githubusercontent.com/116883797/220999890-a7ae11be-b814-427e-b9b6-30ddb12db925.png">
-<img src="https://user-images.githubusercontent.com/116883797/220999906-15f1b0a6-6435-4e13-9113-1f5f3f80493d.png">
+<img src="https://user-images.githubusercontent.com/116883797/221031162-a0715269-84c9-47ca-b4d8-73e334d40921.png">
 
 Usando Figma desarrollamos el *sketch*, prototype de cómo se veria la web para mostrar a quien nos realizo el encargo y conseguir su aprobación.
 ### REACT
