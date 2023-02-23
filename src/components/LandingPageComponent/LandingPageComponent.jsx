@@ -1,24 +1,19 @@
 import React from "react";
-import img from "../../assets/background.png";
+import imgBack from "../../assets/background2.jpg";
+import "./LandingPageComponent.css";
 
 const LandingPageComponent = () => {
     return (
+        <div style={{ backgroundImage: `url(${imgBack})` }}>
+        <div className="background">
 
-        <container className= "background">
-           { <img src= {img} alt="Portada" /> }
+            <button className='solidF bt position-absolute' text='Funcional' />
 
-            <div>
-      <button>COMPRAR</button>
-      <button>ALQUILER</button>
-            </div>
-            
-            <div>
-        
-            </div>
-        </container>
+        </div>
+</div>
     )
-    
-    
+
+
 }
 
 
