@@ -18,7 +18,6 @@ const NavbarComponent = () => {
       </div>
       
     </div>
-    </div>
   )
 }
 
