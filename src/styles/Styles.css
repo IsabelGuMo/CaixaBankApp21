@@ -1,5 +1,6 @@
 @import url(../components/NavbarComponent/NavbarComponent.css);
 @import url(../components/iconComponent/iconComponent.css);
+@import url(../components/SearchComponent/SearchComponent.css);
 
 :root{
     --yellow: #FCB900;

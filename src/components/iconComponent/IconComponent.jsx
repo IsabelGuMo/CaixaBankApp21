@@ -1,14 +1,16 @@
 import React from "react";
 import "./iconComponent.css";
 import pool from "./imgPool.png";
+import SearchComponent from "../SearchComponent/SearchComponent";
 
 const IconComponent = () => {
   return (
-    <div className="container">
+    
+    <div className="container d-flex flex-column justify-content-center align-items-center">
+    <SearchComponent />
       <div className="col">
         <div className="row-12 d-flex flex-row">
           <div className="">
-            
           </div>
           <div className="col">
             <div className="row-6">
@@ -33,7 +35,7 @@ const IconComponent = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-around">
+        <div className="d-flex justify-content-around w-50 mt-5">
           <i class="fa-solid fa-toilet"></i>
           <i class="fa-regular fa-square"></i>
           <i class="fa-solid fa-chart-area"></i>
