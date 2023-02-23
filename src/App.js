@@ -1,19 +1,21 @@
 import "./App.css";
-import IconComponent from "./components/iconComponent/IconComponent";
 import NavbarComponent from "./components/NavbarComponent/NavbarComponent.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
+import DetailPage from "./pages/DetailPage/DetailPage.jsx";
+import FooterComponent from "./components/FooterComponent/FooterComponent";
 
 function App() {
   return (
     <div className="App">
-      <IconComponent />
       <BrowserRouter>
-        <NavbarComponent />
+      <NavbarComponent/>
         <Routes>
           <Route index element={<HomePage />} />
+          <Route path='/detail' element={<DetailPage />} />
         </Routes>
-      </BrowserRouter>
+      <FooterComponent/>
+      </BrowserRouter> 
     </div>
   );
 }

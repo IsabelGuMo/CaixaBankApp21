@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Styles.css";
 
-const SearchComponent = () => {
+const SearchAtom = () => {
   return (
     <div className="d-flex justify-content-center p-5">
       <div className="input-group mb-3 w-75 ">
@@ -29,4 +29,4 @@ const SearchComponent = () => {
   );
 };
 
-export default SearchComponent;
+export default SearchAtom;

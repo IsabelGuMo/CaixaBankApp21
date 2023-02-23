@@ -13,7 +13,7 @@ const NavbarComponent = () => {
           <i className="fa-solid fa-bars h1 text-white"></i>
           <img src={Logo} alt='logo' />
           <NavLinkAtom  as={Link} to="/" class='fs-5' text='COMPRAR'/>
-          <NavLinkAtom  as={Link} to="/" class='fs-5' text='ALQUILER'/>
+          <NavLinkAtom  as={Link} to="detail" class='fs-5' text='ALQUILER'/>
         </div>
       
         <div className="w-30">
