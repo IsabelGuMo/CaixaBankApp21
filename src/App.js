@@ -14,11 +14,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <NavbarComponent/>
-<<<<<<< HEAD
       <Formulary />
-=======
-      
->>>>>>> 742c860573108647dd7aff425d682394fa418419
         <Routes>
         <Route index element={<LandingPageComponent/>} />
         <Route path='/detailBy' element={<DetailBy/>}/>
