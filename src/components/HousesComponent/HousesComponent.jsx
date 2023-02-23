@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Houses } from './Houses/Houses';
+import Houses from "./Houses/Houses";
 import './HousesComponent.css';
 
 function HousesComponent() {
@@ -9,8 +9,8 @@ function HousesComponent() {
 	const [countProducts, setCountProducts] = useState(0);
 
   return (
-    <div className="container-shop">
-      <Houses
+    <div className="container-items">
+    <Houses
         allProducts={allProducts}
         setAllProducts={setAllProducts}
         total={total}
