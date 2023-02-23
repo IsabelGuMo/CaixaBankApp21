@@ -1,21 +1,15 @@
 import React from "react";
-import imgBack from "../../assets/background2.jpg";
+import "../../styles/Styles.css";
 import "./LandingPageComponent.css";
 
 const LandingPageComponent = () => {
-    return (
-        <div style={{ backgroundImage: `url(${imgBack})` }}>
-        <div className="background">
+  return (
+    <div className="background">
+      <div className="content">
+       
+      </div>
+    </div>
+  );
+};
 
-            <button className='solidF bt position-absolute' text='Funcional' />
-
-        </div>
-</div>
-    )
-
-
-}
-
-
-export default LandingPageComponent
-
+export default LandingPageComponent;
