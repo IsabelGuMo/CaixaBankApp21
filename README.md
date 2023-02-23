@@ -8,7 +8,7 @@ Se nos solicitan unos requisitos mínimos pactados:
 - *Home Page* con su *header*, *footer* y sección principal con la lista de los elementos recuperados. 
 
 ## PARTES DEL PROYECTO
-### User flow
+### UserFlow
   <img width="347" alt="Captura de pantalla 2023-02-23 a las 17 31 15-2" src="https://user-images.githubusercontent.com/116883797/220999210-cd961619-10f2-49fa-91f8-8e54ca804ee4.png">
 Segun los requisitos solicitados, desarrollamos un diagrama de flujo que muestra las opciones que tendrá el usuario al acceder a nuestro sitio.
 ### *Sketch* y prototype.
