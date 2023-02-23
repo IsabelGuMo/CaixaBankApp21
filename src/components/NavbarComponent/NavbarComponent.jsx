@@ -20,7 +20,7 @@ const NavbarComponent = () => {
         </div>
 
         <div className="w-30">
-          <NavLink className="linkNav" as={Link} to="formulary">
+          <NavLink className="linkNav" as={Link} to="fomulary">
             ANUNCIATE
           </NavLink>
         </div>
