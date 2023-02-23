@@ -2,7 +2,6 @@ import React from 'react';
 import '../../styles/Styles.css';
 import Logo from '../../assets/images/logoHygge.png';
 import { Link, NavLink} from 'react-router-dom';
-import NavLinkAtom from '../../atoms/buttons/NavLinkAtom';
 
 
 const NavbarComponent = () => {
@@ -14,12 +13,11 @@ const NavbarComponent = () => {
           <NavLink as={Link} to="/"><img src={Logo} alt='logo' /></NavLink>
           <NavLink className='linkNav' as={Link} to="detailBy">COMPRAR</NavLink>
           <NavLink className='linkNav' as={Link} to="detailRent">ALQUILAR</NavLink>
-          {/* <NavLinkAtom  as={Link} to="detailBy" class='fs-5' text='COMPRAR'/>
-          <NavLinkAtom  as={Link} to="detailRent" class='fs-5' text='ALQUILER'/> */}
+          
         </div>
       
         <div className="w-30">
-          <NavLinkAtom as={Link} to="/" class='fw-bold' text='Publica tu anuncio'/> 
+          <NavLink className='linkNav' as={Link} to="formulary">ANUNCIATE</NavLink> 
         </div>
       </div>
     </div>
