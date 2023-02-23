@@ -23,7 +23,6 @@ function Formulary() {
   return (
     <form className="formulario" onSubmit={handleSubmit}>
        <h3 className="titulo">TU ANUNCIO</h3>
-      <div className="blue">
           <>
             <label>
               <input className="input" 
@@ -124,7 +123,6 @@ function Formulary() {
          Upload
         </button>
         </div>
-      </div>
        
    </form>
 
