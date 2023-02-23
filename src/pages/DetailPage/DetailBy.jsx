@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import IconComponent from "../../components/iconComponent/IconComponent";
 
-const DetailPage = () => {
+const DetailBy = () => {
   return (
     <div>
       <IconComponent />
     </div>
-  );
-};
+  )
+}
 
-export default DetailPage;
+export default DetailBy
