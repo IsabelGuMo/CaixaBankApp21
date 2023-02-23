@@ -1,0 +1,7 @@
+@import url(../components/NavbarComponent/NavbarComponent.css);
+
+:root{
+    --yellow: #FCB900;
+    --blue: #0693E3;
+    --red: #CF2E2E;
+}
