@@ -47,7 +47,9 @@ const IconComponent = () => {
           </div>
           </div>
         </div>
-        <div className="row-3"></div>
+        <div className="row-3">
+          <p>275.000€</p>
+        </div>
       </div>
   );
 };
