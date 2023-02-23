@@ -1,0 +1,61 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .label input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .label input:focus {
+    outline: none;
+    border-color: #0077ff;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .botones button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botones button[type="submit"] {
+    background-color: #0077ff;
+    color: #fff;
+  }
+  
+  .botones button[type="submit"]:hover {
+    background-color: #0066cc;
+  }
+  
+  .botones button[type="button"] {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .botones button[type="button"]:hover {
+    background-color: #999;
+  }
+  
