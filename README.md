@@ -12,6 +12,7 @@ Se nos solicitan unos requisitos mínimos pactados:
   <img width="347" alt="Captura de pantalla 2023-02-23 a las 17 31 15-2" src="https://user-images.githubusercontent.com/116883797/220999210-cd961619-10f2-49fa-91f8-8e54ca804ee4.png">
 Segun los requisitos solicitados, desarrollamos un diagrama de flujo que muestra las opciones que tendrá el usuario al acceder a nuestro sitio.
 ### *Sketch* y prototype.
+
 <img src="https://user-images.githubusercontent.com/116883797/221000133-198c9566-a213-4019-baa8-26cecf892cb6.png">
 <img src="https://user-images.githubusercontent.com/116883797/221000198-2bca1c84-83c8-4e64-ade1-618ca8278fd4.png">
 <img src="https://user-images.githubusercontent.com/116883797/221000217-2a1a1424-7ebb-4be0-a5e8-157ff810ecdb.png">
