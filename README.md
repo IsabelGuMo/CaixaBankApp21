@@ -45,6 +45,7 @@ A traves de JS y React, desarrollamos las funciones necesarias para cumplir con 
 - REACT
 ### Herramientas
 - Lucid.app
+- Trello
 - Figma
 - Visual Studio Code
 - REACT
