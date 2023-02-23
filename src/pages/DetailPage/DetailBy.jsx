@@ -1,9 +1,10 @@
 import React from 'react';
+import IconComponent from "../../components/iconComponent/IconComponent";
 
 const DetailBy = () => {
   return (
     <div>
-      <h2>Hola detalles de compra</h2>
+      <IconComponent />
     </div>
   )
 }
