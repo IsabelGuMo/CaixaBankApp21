@@ -6,14 +6,14 @@ const NavbarComponent = () => {
       <div className="d-flex align-items-center justify-content-between header-container p-4">
         <div className="d-flex flex-row align-items-center gap-3">
           <i className="fa-solid fa-bars h1 text-white"></i>
-          <img src={Logo} alt='logo' />
+          {/* <img src={Logo} alt='logo' />
           <NavLinkAtom class='fs-5' text='COMPRAR'/>
-          <NavLinkAtom class='fs-5' text='ALQUILER'/>
+          <NavLinkAtom class='fs-5' text='ALQUILER'/> */}
         </div>
       
-        <div className="w-30">
+        {/* <div className="w-30">
           <NavLinkAtom class='fw-bold' text='Publica tu anuncio'/> 
-        </div>
+        </div> */}
         
       </div>
       

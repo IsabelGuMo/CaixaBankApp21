@@ -1,6 +1,6 @@
 import './App.css';
 import NavbarComponent from './components/NavbarComponent/NavbarComponent.jsx';
-import HousesComponent from './components/HousesComponent/HousesComponent.jsx';
+import Formulario from './components/Formulary';
 
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <NavbarComponent/>
-      <HousesComponent />
+      <Formulario />
     </div>
   );
 }

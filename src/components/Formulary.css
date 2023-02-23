@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px;
+    justify-content: center;
+    max-width: 30vh;
     margin: 0 auto;
+    gap: 3vh;
   }
   
   .label {
@@ -12,13 +14,18 @@
     margin-bottom: 10px;
     width: 100%;
   }
+
+  .detalles {
+    height: 20vh;
+  }
   
   .label input {
     padding: 8px;
     font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
+    border-radius: 5px;
   }
   
   .label input:focus {
@@ -32,30 +39,47 @@
     margin-top: 20px;
     width: 100%;
   }
-  
-  .botones button {
-    padding: 10px 20px;
-    font-size: 16px;
+  .containerbutons{
+    display:flex;
+    justify-content: center;
+
+  }
+
+  .botoncontainer {
+    font-size: 1.25rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color:white;
+    background-color:#FCB900;
     cursor: pointer;
+    width: 3wh;
+    gap: 20vh;
+    padding: 10px 20px;
+    
   }
   
-  .botones button[type="submit"] {
-    background-color: #0077ff;
-    color: #fff;
+  .titulo {
+    font-size: 1.5625rem;
   }
   
-  .botones button[type="submit"]:hover {
-    background-color: #0066cc;
+  .blue {
+    display:flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    border-radius: 15%;
+    background-color: #0693E3;
+    height: 80vh;
+    width: 40vw;
+    
   }
-  
-  .botones button[type="button"] {
-    background-color: #ccc;
-    color: #333;
+  .input {
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+
   }
-  
-  .botones button[type="button"]:hover {
-    background-color: #999;
-  }
-  
