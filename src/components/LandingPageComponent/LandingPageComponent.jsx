@@ -6,9 +6,7 @@ import "./LandingPageComponent.css";
 const LandingPageComponent = () => {
   return (
     <div className="background">
-      <div className="content">
-       <SearchAtom/>
-      </div>
+      <SearchAtom/>
     </div>
   );
 };
