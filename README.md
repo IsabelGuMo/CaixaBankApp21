@@ -49,6 +49,9 @@ A traves de JS y React, desarrollamos las funciones necesarias para cumplir con 
 - REACT
 - GitHub
 - La API de  Propierties http://localhost:8080/api/properties
+### Istalacion del proyecto
+- npm install
+- npm start
 ## EQUIPO
 - [@IsabelGuMo](https://github.com/IsabelGuMo)
 - [@JenniferCorderoR](https://github.com/JenniferCorderoR)
