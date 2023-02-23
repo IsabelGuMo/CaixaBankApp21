@@ -1,5 +1,5 @@
 # Hackatton Caixa Tech 
-## PROYECTO   HYGEE
+## PROYECTO  - HYGEE
  
 
 El objetivo de nuestro proyecto es acceder a una API externa para, una vez recopilada la información de dicha API, poder mostrarla en pantalla y poder interactuar con ella.   
