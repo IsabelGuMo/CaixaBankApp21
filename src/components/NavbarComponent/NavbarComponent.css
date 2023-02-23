@@ -1,0 +1,12 @@
+.header-container{
+    padding: 1vh;
+    background-color: var(--blue);
+    font-family: var(--letter);
+    width: 100%;
+}
+
+.btn-nav {
+    color: white;
+    text-decoration:none;
+}
+
