@@ -1,11 +1,10 @@
 import React from 'react';
-import IconComponent from "../../components/iconComponent/IconComponent";
-
+import HousesComponent from '../../components/HousesComponent/HousesComponent';
 
 const DetailRent = () => {
   return (
     <div>
-      <IconComponent />
+      <HousesComponent/>
     </div>
   )
 }

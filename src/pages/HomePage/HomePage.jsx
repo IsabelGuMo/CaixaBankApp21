@@ -1,13 +1,14 @@
 import React from 'react';
+import NavbarComponent from '../../components/NavbarComponent/NavbarComponent';
 import HousesComponent from '../../components/HousesComponent/HousesComponent';
 
-const DetailBy = () => {
+const HomePage = () => {
   return (
     <div>
-    
+      <NavbarComponent/>
       <HousesComponent/>
     </div>
   )
 }
 
-export default DetailBy
+export default HomePage
