@@ -50,7 +50,7 @@ A traves de JS y React, desarrollamos las funciones necesarias para cumplir con 
 - Visual Studio Code
 - REACT
 - GitHub
-- La API de  Propierties http://localhost:8080/api/properties
+- La API de Propierties generada en localhost
 ### Istalacion del proyecto
 - npm install
 - npm start
