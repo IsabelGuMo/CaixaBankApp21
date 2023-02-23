@@ -1,6 +1,5 @@
 import React from "react";
 import DataApi from "./data";
-import { Link } from "react-router-dom";
 
 const Houses = () => {
   const responseData = DataApi();
@@ -10,7 +9,7 @@ const Houses = () => {
     .map((item) => (
         <div className="item" key={item.id}>
           <figure>
-            <img src={"http://localhost:8080/images/" + item.image[0].name} alt={item.nameproperty} />
+            <img src={"http://localhost:8080/images/" + item.image[0].name} alt={item.city + " - " + item.nameproperty} />
           </figure>
           <div className="info-price">
             <h5>
@@ -21,10 +20,10 @@ const Houses = () => {
             <h5 className="city-product">{item.city}</h5>
             <h2 className="name-product">{item.nameproperty}</h2>
             <h6>
-              {item.bathroom} | {item.bedroom} | {item.surface}
+            <i class="fa-solid fa-shower"></i> {item.bathroom} | <i class="fa-solid fa-bed"></i> {item.bedroom} | <i class="fa-solid fa-house"></i> {item.surface} m<sup>2</sup>
             </h6>
             <h6 className="description">{item.description}</h6>
-            <button as={Link} to="detailPage">Ver ficha</button>
+            {/* <button>Ver ficha</button> */}
           </div>
         </div>
     ));
