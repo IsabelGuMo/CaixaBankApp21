@@ -13,10 +13,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <NavbarComponent/>
-      <DetailPage/>
-      <DetailBy/>
-      <DetailRent/>
-      <Formulary/>
         <Routes>
         <Route index element={<LandingPageComponent/>} />
         <Route path='/detailPage' element={<DetailPage/>}/>
