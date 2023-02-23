@@ -1,16 +1,18 @@
 import './App.css';
-// import NavbarComponent from './components/NavbarComponent/NavbarComponent.jsx';
-// import HousesComponent from './components/HousesComponent/HousesComponent.jsx';
-import LandingPageComponent from './components/LandingPageComponent/LandingPageComponent.jsx';
+import NavbarComponent from './components/NavbarComponent/NavbarComponent.jsx';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage/HomePage';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <NavbarComponent/>
-      <HousesComponent /> */}
-      <LandingPageComponent/>
-   
+      <BrowserRouter>
+      <NavbarComponent/>
+        <Routes>
+        <Route index element={<HomePage />} />
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
