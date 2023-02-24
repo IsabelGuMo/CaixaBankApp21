@@ -1,4 +1,4 @@
-# Hackatton CaixaBank Tech 
+# Hackathon CaixaBank Tech 
 ## PROYECTO  - HYGEE
  
 
