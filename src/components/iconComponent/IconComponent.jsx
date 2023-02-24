@@ -1,13 +1,11 @@
 import React from "react";
 import "./iconComponent.css";
 import pool from "./imgPool.png";
-import SearchAtom from "../../atoms/SearchAtom/SearchAtom";
 
 const IconComponent = () => {
-  return (
-    
+  return (  
     <div className="container d-flex flex-column justify-content-center align-items-center">
-    <SearchAtom />
+    
       <div className="col">
         <div className="row-12 d-flex flex-row">
           <div className="">
