@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LandingPageComponent from "./components/LandingPageComponent/LandingPageComponent";
 import DetailBy from "./pages/DetailPage/DetailBy";
 import DetailRent from "./pages/DetailsRent/DetailRent";
+import Footer from "./components/FooterComponent/FooterComponent";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route path="/detailRent" element={<DetailRent />} />
           <Route path="/fomulary" element={<Formulary />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
