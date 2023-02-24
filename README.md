@@ -1,8 +1,8 @@
-# Hackatton Caixa Tech 
+# Hackatton CaixaBank Tech 
 ## PROYECTO  - HYGEE
  
 
-El objetivo de nuestro proyecto es acceder a una API externa para, una vez recopilada la información de dicha API, poder mostrarla en pantalla y poder interactuar con ella.   
+El objetivo de nuestro proyecto es acceder a una API para, una vez recopilada la información , poder mostrarla en pantalla y poder interactuar con ella.   
 Se nos solicitan unos requisitos mínimos pactados:   
 - *Responsive Desig*
 - *Home Page* con su *header*, *footer* y sección principal con la lista de los elementos recuperados. 
@@ -33,7 +33,7 @@ Se personalizó la web para que visualmente se vea como el prototipo aprobado.
 ### JavaScript
 A traves de JS y React, desarrollamos las funciones necesarias para cumplir con los requisitos solicitados:
 - SPA (*Single Page Aplication*)
-- Acceso a la API externa
+- Acceso a la API
 - Sección de *Home Page* con una lista 
 - Agregar elementos desde la *Home Page* a traves de un formulario .
 - Además, se incluye la posibilidad de poder mostrar la ficha completa de cada elemento para ver su descripcion.
