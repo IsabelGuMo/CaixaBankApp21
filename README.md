@@ -1,71 +1,64 @@
-# Getting Started with Create React App
+# Hackathon CaixaBank Tech 
+## PROYECTO  - HYGEE
+ 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El objetivo de nuestro proyecto es acceder a una API para, una vez recopilada la información , poder mostrarla en pantalla y poder interactuar con ella.   
+Se nos solicitan unos requisitos mínimos pactados:   
+- *Responsive Desig*
+- *Home Page* con su *header*, *footer* y sección principal con la lista de los elementos recuperados. 
 
-## Available Scripts
+## PARTES DEL PROYECTO
+### UserFlow
+  <img width="347" alt="Captura de pantalla 2023-02-23 a las 17 31 15-2" src="https://user-images.githubusercontent.com/116883797/220999210-cd961619-10f2-49fa-91f8-8e54ca804ee4.png">
+Segun los requisitos solicitados, desarrollamos un diagrama de flujo que muestra las opciones que tendrá el usuario al acceder a nuestro sitio.
 
-In the project directory, you can run:
+### *Sketch* y prototype.
 
-### `npm start`
+<img src="https://user-images.githubusercontent.com/116883797/221000133-198c9566-a213-4019-baa8-26cecf892cb6.png">
+<img src="https://user-images.githubusercontent.com/116883797/221000198-2bca1c84-83c8-4e64-ade1-618ca8278fd4.png">
+<img src="https://user-images.githubusercontent.com/116883797/221000217-2a1a1424-7ebb-4be0-a5e8-157ff810ecdb.png">
+<img src="https://user-images.githubusercontent.com/116883797/221000233-f91affa5-477c-4c3b-97a7-33044dc2bd15.png">
+<img src="https://user-images.githubusercontent.com/116883797/220999839-7a80cb80-8e84-403c-9487-684e0e4bcd50.png">
+<img src="https://user-images.githubusercontent.com/116883797/220999853-bfa937cc-87d9-4485-8ade-6c31b4806cd1.png">
+<img src="https://user-images.githubusercontent.com/116883797/220999890-a7ae11be-b814-427e-b9b6-30ddb12db925.png">
+<img src="https://user-images.githubusercontent.com/116883797/221031162-a0715269-84c9-47ca-b4d8-73e334d40921.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# CaixaBankApp21
+Usando Figma desarrollamos el *sketch*, prototype de cómo se veria la web para mostrar a quien nos realizo el encargo y conseguir su aprobación.
+### REACT
+Se instala React para poder acceder a sus opciones y demás herramientas necesarias para cumplir con los requisitos solicitados.
+### Estructura HTML
+Una vez aprobado el prototipo e instalado React, se desarrolló la estructura HTML necesaria para desarrollar la web.
+### CSS
+Se personalizó la web para que visualmente se vea como el prototipo aprobado.
+### JavaScript
+A traves de JS y React, desarrollamos las funciones necesarias para cumplir con los requisitos solicitados:
+- SPA (*Single Page Aplication*)
+- Acceso a la API
+- Sección de *Home Page* con una lista 
+- Agregar elementos desde la *Home Page* a traves de un formulario .
+- Además, se incluye la posibilidad de poder mostrar la ficha completa de cada elemento para ver su descripcion.
+## LENGUAJES Y HERRAMIENTAS UTILIZADOS
+### Lenguajes
+- HTML
+- CSS
+- JavaScript
+- REACT
+### Herramientas
+- Lucid.app
+- Trello
+- Figma
+- Visual Studio Code
+- REACT
+- GitHub
+- La API de Propierties generada en localhost
+### Istalacion del proyecto
+- npm install
+- npm start
+## EQUIPO
+- [@IsabelGuMo](https://github.com/IsabelGuMo)
+- [@JenniferCorderoR](https://github.com/JenniferCorderoR)
+- [@Dianab177](https://github.com/Dianab177)
+- [@JohnnyRamirezSancho](https://github.com/JohnnyRamirezSancho)
+- [@RaulMartinezF5](https://github.com/RaulMartinezF5)
+- [@JerryAiyaniyo](https://github.com/JerryAiyaniyo)
+- [@guejo8](https://github.com/guejo8)

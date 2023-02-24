@@ -1,0 +1,18 @@
+.footerContainer {
+    display: flex;
+    background-color: #0693E3;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    margin-top: 10vh;
+  }
+  .footer {
+    display: flex;
+    color: white;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+  }
